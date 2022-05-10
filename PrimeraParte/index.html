@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <title>Compañia de Seguros Chumbita</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="/img/car-insurance.png" alt="ChumbitaLogo">
+            <h1>Chumbita seguros</h1>
+        </div>
+
+        <nav class="header__nav">
+            <div>
+                <a href="#">Seguro personales</a>
+                <a href="#">Seguro de empresas</a>
+                <a href="#">Productores</a>
+                <a href="#">Atencion al cliente</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <div>
+                <h2>¿Quienes somos?</h2>
+                <p>Somos una compañia de aseguradora de autos desde 1995. Nos dedicamos a poder solucionar cualquier
+                    atercado que pueda tener nuestro cliente, brindando un servicio de calidad y excelencia.
+                    Por eso nos encontramos como una de las compañias TOP Ten a nivel Nacional.</p>
+            </div>
+            <div>
+                <img src="./img/01-funcionamiento-seguro-autos.jpg" alt="">
+                <div class="difimunado"></div>
+            </div>
+
+        </section>
+
+        <section class="section2">
+            <div>
+                <h2 class="subrayado">Nuestros planes</h2>
+            </div>
+            <div class="section2__items">
+                <div>
+                    <h3>Seguro contra Daños Totales</h3>
+                    <p>¿De que trata este seguro?</p>
+                    <p>Responsabilidad Civil limitada, Incendio total, Robo y/o Hurto total y Daños totales por
+                        accidente.</p>
+                </div>
+                <div>
+                    <h3>Seguro contra terceros parcial</h3>
+                    <p>¿De que trata este seguro?</p>
+                    <p>Responsabilidad Civil limitada, Incendio total, Robo y/o Hurto total y Daños totales por
+                        accidente.</p>
+                </div>
+                <div>
+                    <h3>Seguro contra terceros completo</h3>
+                    <p>¿De que trata este seguro?</p>
+                    <p>Responsabilidad Civil limitada, Incendio total y parcial, Robo y/o Hurto total y parcial y Daños
+                        totales por accidente.</p>
+                </div>
+                <div>
+                    <h3>Seguro contra todo riesgo</h3>
+                    <p>¿De que trata este seguro?</p>
+                    <p>Responsabilidad Civil limitada, Incendio total y parcial, Robo y/o Hurto total y parcial y Daños
+                        totales y parciales por accidente. Incluye Franquicia. </p>
+                </div>
+            </div>
+            <div class="section2__cotizar">
+                <h4>¿Quieres asegurar tu auto con nosotros?</h4>
+                <p>Entonces vamos a cotizarlo!</p>
+                <div>
+                    <a href="#cotizador">Cotizar</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="cotizador">
+            <div class="cotizador__flex">
+                <h2>Cotiza tu vehiculo</h2>
+            </div>
+            <form class="formulario__cotizador" name="formulario" action="">
+                <select id="cotizador" name="select">
+                    <option value="" selected></option>
+                    <option value="chevrolet">Chevrolet</option>
+                    <option value="ford">Ford</option>
+                    <option value="citroen">Citroen</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="honda">Honda</option>
+                    <option value="nissan">Nissan</option>
+                    <option value="peugeot">Peugeot</option>
+                    <option value="renault">Renault</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="volkswagen">Volkswagen</option>
+                </select>
+                <input id="cotizadorAnio" type="text" placeholder="Por favor ingrese el año" name="" id="">
+                <div class="input0KM">
+                    <p>¿Es 0KM?</p>
+                    <input type="checkbox" value="si" name="" id="">
+                </div>
+                <input id="cotizadorModelo" type="text" placeholder="Por favor ingrese el modelo" name="" id="">
+                <input id="cotizadorVersion" type="text" placeholder="Por favor ingrese la version" name="" id="">
+                <input id="cotizadorProvincia" type="text" placeholder="Por favor ingrese la provincia" name="" id="">
+                <input id="cotizadorCiudad" type="text" placeholder="Por favor ingrese la ciudad" name="" id="">
+                <a href="#" id="btnCotizar">Cotizar mi auto</a>
+            </form>
+            <div class="informacion" id="infoSeguro"></div>
+        </section>
+
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/main1.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+
+</html>

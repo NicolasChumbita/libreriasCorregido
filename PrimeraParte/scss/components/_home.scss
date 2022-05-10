@@ -1,0 +1,189 @@
+.section1{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    width: auto;
+    div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        background-color: #1A132F;
+        text-align: center;
+        
+        
+        h2{
+            margin-top: 13rem;
+            margin-bottom: 2rem;
+            color: $blanco;
+            font-size: 2.6rem;
+            
+        }
+        p{
+            color: $blanco;
+            font-size: 1.8rem;
+            width: 500px;
+            margin: auto;
+            margin-top: 0;
+        }
+    }
+    div:nth-child(2){
+        position: relative;
+        height: 474px;
+       img{
+           width: 710px;
+       }
+    }
+}
+
+.difimunado{
+    position: absolute;
+    top: -47.8rem;
+    height: 474px;
+    width: 710px;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.section2{
+    background-color: #1A132F;
+    width: auto;
+    height: 620px;
+            div:nth-child(1){
+            display: flex;
+            justify-content: center;
+            h2{
+                margin-top: 2rem;
+                font-size: 2.7rem;
+                text-align: center;
+                color: $blanco;
+            }
+        }
+        
+}
+
+.section2__items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    width: 1200px;
+    margin: auto;
+    margin-top: 4rem;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            border-top:solid 1px black ;
+            border-bottom:solid 1px black ;
+            background-color: rgb(22, 22, 22);
+            padding: 1rem;
+            h3{
+                color: $blanco;
+                font-size: 1.7rem;
+            }
+            p{
+                width: 290px;
+                font-size: 1.5rem;
+                color: $blanco;
+                margin: auto;
+                margin-top: 1rem;
+
+            }
+        }
+}
+
+.section2__cotizar{
+    text-align: center;
+    h4{
+        font-size: 2.5rem;
+        margin-top: 5rem;
+        color: $blanco; 
+    }
+    p{
+        font-size: 2rem;
+        color: $blanco;
+    }
+    div{
+        margin-top: 1.5rem;
+
+        a{
+            font-size: 1.7rem;
+            background-color: $amarillo;
+            padding: 1rem 4rem;
+            
+        }
+    }
+    }
+  
+
+    .cotizador{
+        background-color: #1A132F;
+        width: auto;
+            .cotizador__flex{
+                display: flex;
+                justify-content: center;
+                    h2{
+                        margin-top: 4rem;
+                        font-size: 2.7rem;
+                        color: $blanco;
+                        margin-bottom: 3rem;
+                    }
+            }
+    }
+
+    .formulario__cotizador{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        outline: none;
+        border: none;
+        width: 500px;
+            a{
+                border: none;
+                margin-top: 2rem;
+                font-size: 1.6rem;
+                background-color: $amarillo;
+                cursor: pointer;
+                text-align: center;
+            }
+            input{
+                margin-top: 1rem;
+                border: 1px solid rgba(0, 0, 255, 0.466);
+                text-align: center;
+                outline: none;
+                font-size: 1.6rem;
+            }
+            select{
+                font-size: 1.7rem;
+                text-align: center;
+                outline: none;
+                    &:hover{
+                        outline: none;
+                    }
+            }
+
+            
+    }
+
+    .input0KM{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 2rem;
+            p{
+                color: $blanco;
+                margin-top: 1rem;
+
+                font-size: 1.5rem;
+            }
+    }
+
+
+
+
+    .informacion{
+        margin-top: 1rem;
+        padding-bottom: 1rem ;
+       p{
+           text-align: center;
+        color: white;
+        font-size: 2rem;
+       }
+    }
